@@ -3,7 +3,20 @@ Cloudflare Worker - 落地页 + 可视化后台。
 
 本代码由Gemini编写，一套又有完整可视化后台的落地页。
 
-使用 Cloudflare Worker 和 Workers KV，免费搭建带可视化后台的工具展示以及提示分享网站，无需服务器，
+使用 Cloudflare Worker 和 Workers KV，免费搭建带可视化后台的工具展示以及提示分享网站，无需服务器。
+
+**网站页面以及后台展示：**
+
+<img width="1862" height="1012" alt="image" src="https://github.com/user-attachments/assets/fd20a873-b164-4af6-bca8-cfecdbd6c5e8" />
+
+<img width="1862" height="1012" alt="image" src="https://github.com/user-attachments/assets/681154a2-a5a3-4ad1-84f1-5ff0732acdd7" />
+
+<img width="1862" height="1012" alt="image" src="https://github.com/user-attachments/assets/8bfd6db6-0ef9-4b57-b061-5a7cc2c2ce2a" />
+
+<img width="1159" height="757" alt="image" src="https://github.com/user-attachments/assets/6c3a0133-d763-4ee6-a2f7-bfd7ee330e67" />
+
+<img width="1159" height="871" alt="image" src="https://github.com/user-attachments/assets/787b0e38-9d52-4b5d-bdc9-1ae23ef349be" />
+
 
 **部署教程：**
 
@@ -51,3 +64,6 @@ Cloudflare Worker - 落地页 + 可视化后台。
 
 <img width="394" height="502" alt="image" src="https://github.com/user-attachments/assets/44a40e6a-a935-46e5-999f-5f1989d9ada7" />
 
+后台地址：https://xxxxxx.workers.dev/admin  
+
+如果进入后台发现404,看地址是不是 /admin/ ，把后面 / 删除即可。
